@@ -1,0 +1,47 @@
+TITLE:      Mixture model of alcohol-internalizing-externalizing items UKB
+
+DATA:       FILE IS "ukb_alc.dat";
+
+VARIABLE:   NAMES ARE iid mdd panic gad phobia auddx tuddx suddx 
+            mhbng_D gmeth_ln freq 
+            blackout respons cantstop guilt wdrawal concern injury
+            former abstain incdrink decdrink 
+            anxsxs2w depsxs2w neu_sum evaddict cannab_D;
+             
+            USEVARIABLES ARE mdd panic gad phobia auddx tuddx suddx 
+            mhbng_D gmeth_ln freq 
+            blackout respons cantstop guilt wdrawal concern injury
+            former abstain incdrink decdrink 
+            anxsxs2w depsxs2w neu_sum evaddict cannab_D;
+             
+            CATEGORICAL ARE mdd panic gad phobia auddx tuddx suddx 
+            mhbng_D blackout respons cantstop guilt wdrawal concern injury
+            former abstain incdrink decdrink evaddict cannab_D;
+            
+            IDVARIABLE IS iid;
+       
+            MISSING ARE ALL (9999); 
+                        
+            Classes = c(4);
+
+
+  
+ANALYSIS:   Type=Mixture;
+            ESTIMATOR = MLR;
+            starts = 200 50;
+            lrtstarts = 0 0 50 15;
+
+OUTPUT:     Tech1 Tech4 Tech7 Tech11 Tech14 ;
+
+SAVEDATA:   File is "out_4class.dat"; 
+            FORMAT is FREE;
+            SAVE is CPROBABILITIES; 
+
+PLOT: 
+!TYPE IS plot2;
+!SERIES IS   anxsxs2w depsxs2w neu_sum cannab 
+!            audsx mhbng_ln gmeth_ln freq(*);
+TYPE IS plot2;
+SERIES IS   mdd panic gad phobia auddx tuddx suddx 
+            mhbng_D blackout respons cantstop guilt wdrawal concern injury
+            former abstain incdrink decdrink evaddict cannab_D(*);

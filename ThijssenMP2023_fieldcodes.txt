@@ -1,0 +1,57 @@
+20117	drinkerstatus
+1558	drinkfreq
+4407	quant_rwine_mo
+1568	quant_rwine_wk
+4418	quant_wwine_mo
+1578	quant_wwine_wk
+4429	quant_beer_mo
+1588	quant_beer_wk
+4440	quant_spirit_mo
+1598	quant_spirit_wk
+4451	quant_fwine_mo
+1608	quant_fwine_wk
+4462	quant_other_mo
+5364	quant_other_wk
+1628	drink_diff_10yrs_ago
+20416	mh_bingefreq
+20413	aud_cantstop
+20407	aud_responsibilities
+20412	aud_withdrawal
+20409	aud_guilt
+20408	aud_blackouts
+20411	injured_drinking
+20405	concerned_friends
+20127	neu_sum
+20506	a2_nervous	Recent feelings or nervousness or anxiety
+20512	a2_dread	Recent feelings of foreboding
+20505	a2_irritable	Recent easy annoyance or irritability
+20520	a2_worry	Recent worrying too much about different things
+20515	a2_relax	Recent trouble relaxing
+20516	a2_restless	Recent restlessness
+20509	a2_control	Recent inability to stop or control worrying
+20514	d2_anhedonia	Recent lack of interest or pleasure in doing things
+20508	d2_concentrate	Recent trouble concentrating on things
+20513	dep_2wk_death	Recent thoughts of suicide or self-harm
+20511	d2_eat	Recent poor appetite or overeating
+20510	d2_depressed	Recent feelings of depression
+20517	d2_insomnia	Trouble falling or staying asleep, or sleeping too much
+20518	d2_speed	Recent changes in speed/amount of moving or speaking
+20519	d2_tired	Recent feelings of tiredness or low energy
+20507	d2_failure	Recent feelings of inadequacy
+20453	ever_cannabis
+20401	ever_addicted
+20544	mh_diagnosis
+130855	alcohol_use_dx	F10_alcohol_use_disorder
+130857	opioid_use_dx	F11_opioid_use_disorder
+130859	cannabis_use_dx	F12_cannabinoid_use_disorder
+130861	sedative_use_dx	F13_sedatives_use_disorder
+130863	cocaine_use_dx	F14_cocaine_use_disorder
+130865	stim_use_dx	F15_stimulant_use_disorder
+130867	halluc_use_dx	F16_hallucinogen_use_disorder
+130869	tobacco_use_dx	F17_tobacco_use_disorder
+130871	solvent_use_dx	F18_solvents_use_disorder
+130873	multdrug_use_dx	F19_multiple_drug_use_disorder
+130897	mdd	F33_mdd
+130905	phobia	F40_phobia
+131659	alc_cirrhosis	K70_alcoholic_liver_disease
+22021	relative_exclusion
