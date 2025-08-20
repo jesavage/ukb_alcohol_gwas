@@ -10,7 +10,7 @@ Results from [Savage et al., 2024, American Journal of Psychiatry](https://www.p
 - ['SavageAJP2024_DerivePhenotypes.R'](SavageAJP2024_DerivePhenotypes.R) - Script for deriving phenotypes from UKB survey data and medical records
 - ['SavageAJP2024_clinical_alcohol_maps.xlsx'](SavageAJP2024_clinical_alcohol_maps.xlsx) - Medical record phenotype definitions
 - ['SavageAJP2024_fieldcodes.txt'](SavageAJP2024_fieldcodes.txt) - Survey phenotype definitions
-- ['SavageAJP2024_gsem_script_alc.txt'](SavageAJP2024_gsem_script_alc.txt) - Script for carrying out gSEM factor analysis and GWAS 
+- ['SavageAJP2024_gsem_script_alc.sh'](SavageAJP2024_gsem_script_alc.sh) - Script for carrying out gSEM factor analysis and GWAS 
 
 
 
@@ -19,7 +19,6 @@ Results from [Savage et al., 2024, Alcohol: Clinical and Experimental Research](
 
 - ['SavageACER2024_stratified_gwas_trauma_ses.R'](SavageACER2024_stratified_gwas_trauma_ses.R) - Script for cleaning/recoding phenotypes and carrying out stratified GWAS and GWEIS.
 - ['SavageACER2024_strat_codes.txt](SavageACER2024_strat_codes.txt) - Phenotype field codes
-- ['SavageACER2024_anova2df_gxe_test.R'](SavageACER2024_anova2df_gxe_test.R) - Script to calculate a 2df ANOVA test of the main+interaction effect coefficients for comparison across different types of models.
 - ['SavageACER2024_run_simGxE.sh'](SavageACER2024_run_simGxE.sh) - Script to simulate GxE effects and how they are captured under different types of models. 
 
 
